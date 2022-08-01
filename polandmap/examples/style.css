@@ -1,0 +1,36 @@
+body {
+  padding: 0;
+  margin: 0;
+  background: #eff;
+  font-family: "Roboto", sans-serif;
+}
+.container {
+  display: flex;
+}
+.map_container {
+  width: 60vw;
+  margin: auto auto;
+  text-align: center;
+}
+.main_header{
+    color: #aaa;
+    margin: 2rem 0 0 5rem;
+}
+
+.data_container iframe {
+  border: 0;
+  margin: 5rem;
+}
+.selected_province {
+  font-size: 1rem;
+  font-weight: lighter;
+  color: #aaa;
+  text-transform: uppercase;
+  font-family: "Roboto", sans-serif;
+  border-bottom: 1px solid #aaa;
+}
+
+#province {
+  font-size: 2rem;
+  font-family: "Roboto", sans-serif;
+}

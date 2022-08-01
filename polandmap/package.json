@@ -1,0 +1,20 @@
+{
+  "name": "frontcamp-expressexamples",
+  "author": "Damian Iwański <damian.iwanski@britenet.com.pl>",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "http-server -p 3000 ./examples -c1"
+  },
+  "dependencies": {
+    "http-server": "^14.1.1"
+  },
+  "devDependencies": {
+    "prettier": "^2.7.1"
+  },
+  "main": "index.js",
+  "directories": {
+    "example": "examples"
+  },
+  "license": "ISC",
+  "description": ""
+}

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="style.css">
+    <title>ProvinceData</title>
+  </head>
+  <body>
+    <h1 class="selected_province">Selected Province:</h1>
+    <p id="province"></p>
+    <script>
+      (function getName() {
+        setInterval(()=>{
+          const abc = window.localStorage.getItem('id');
+          if (abc) {
+            document.getElementById('province').innerText = abc;
+          }
+        },100);
+      })()
+    </script>
+  </body>
+</html>
